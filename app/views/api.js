@@ -57,7 +57,7 @@ export const api = {
 
 
 
-    patchData: async (param, data) => { // función para realizar peticiones PUT a la API
+    patchData: async (param, data) => { // función para realizar peticiones PATCH a la API
         try {
             const response = await fetch(`${api.baseUrl}${param}`, {
                 method: 'PATCH',
