@@ -102,7 +102,7 @@ export async function showEvents() {
         <button class="delete-btn" data-id="${event.id}" >Eliminar</button>
         ` : ''}
         ${user.role === 'visitante' && event.enrolled.includes(user.email) ? `
-        <button class="enroll-btn" disabled>Inscrito</button>
+        <button class="enroll-btn" disabled>Inscrito</button> 
         ` : user.role === 'visitante' ? `<button class="enroll-btn" data-id="${event.id}" >Inscribirse</button>`:''}
         </li>`).join('')}</ul>
         <br>
@@ -236,7 +236,7 @@ export async function showEditEvents() {
 
 
 // Función para redirigir a la vista de edición de eventos
-window.editCourse = (id) => {
+window.editCourse = (id) => { //esta función no es asicrónica debido a que no realiza ninguna petición
     location.hash = `#/dashboard/events/edit/${id}`;
     router();
 }
@@ -255,5 +255,4 @@ window.deleteEvent = async (id) => {
         alert('Error al eliminar el evento');
         console.error(error);
     }
-
 }
