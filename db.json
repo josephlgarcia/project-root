@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@eventos.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "name": "joseph",
+      "email": "josephgarciaescobar597@gmail.com",
+      "password": "1234",
+      "role": "visitante",
+      "id": "3"
+    },
+    {
+      "name": "nuevo",
+      "email": "nuevo@ejemplo.com",
+      "password": "12345",
+      "role": "visitante",
+      "id": "4"
+    },
+    {
+      "name": "pa",
+      "email": "pa@pa.com",
+      "password": "pa",
+      "role": "visitante",
+      "id": "5"
+    },
+    {
+      "id": "7882",
+      "name": "pinto",
+      "email": "pinto@gmail.com",
+      "password": "pinto123",
+      "role": "visitante"
+    },
+    {
+      "id": "e61c",
+      "name": "Leonel",
+      "email": "messi@gmail.com",
+      "password": "messi123",
+      "role": "visitante"
+    },
+    {
+      "id": "58cb",
+      "name": "cris",
+      "email": "cris@gmail.com",
+      "password": "cris123",
+      "role": "visitante"
+    }
+  ],
+  "events": [
+    {
+      "title": "Caminata por la paz",
+      "organizador": "Juan Pérez",
+      "capacity": 0,
+      "id": "1",
+      "enrolled": [
+        "pinto@gmail.com",
+        "nuevo@ejemplo.com",
+        "cris@gmail.coom",
+        "messi@gmail.com",
+        "josephgarciaescobar597@gmail.com"
+      ]
+    },
+    {
+      "title": "Campamento medianoche",
+      "organizador": "martha",
+      "capacity": 10,
+      "id": "3",
+      "enrolled": [
+        "josephgarciaescobar597@gmail.com",
+        "nuevo@ejemplo.com",
+        "cris@gmail.com"
+      ]
+    },
+    {
+      "title": "Concierto de Rammstein",
+      "organizador": "joseph",
+      "capacity": 12,
+      "id": "a0a5",
+      "enrolled": [
+        "pinto@gmail.com",
+        "nuevo@ejemplo.com",
+        "pa@pa.com",
+        "cris@gmail.com"
+      ]
+    },
+    {
+      "title": "Cine",
+      "organizador": "pamela",
+      "capacity": 17,
+      "id": "0f0b",
+      "enrolled": [
+        "josephgarciaescobar597@gmail.com",
+        "pa@pa.com",
+        "cris@gmail.com",
+        "pinto@gmail.com"
+      ]
+    },
+    {
+      "id": "6590",
+      "title": "Boda",
+      "organizador": "Maleja",
+      "capacity": 247,
+      "enrolled": [
+        "pinto@gmail.com",
+        "nuevo@ejemplo.com",
+        "pa@pa.com"
+      ]
+    },
+    {
+      "id": "73cc",
+      "title": "Tour de Francia",
+      "organizador": "Francia",
+      "capacity": 1530,
+      "enrolled": [
+        "messi@gmail.com",
+        "cris@gmail.coom",
+        "cris@gmail.com"
+      ]
+    },
+    {
+      "id": "1cf5",
+      "title": "World chess championship",
+      "organizador": "Fide",
+      "capacity": 295,
+      "enrolled": [
+        "pinto@gmail.com",
+        "cris@gmail.com",
+        "josephgarciaescobar597@gmail.com",
+        "pa@pa.com"
+      ]
+    }
+  ]
+}
